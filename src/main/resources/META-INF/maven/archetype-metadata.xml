@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archetype-descriptor name="zixing">
+  <fileSets>
+    <fileSet filtered="true" encoding="UTF-8" packaged="true">
+      <directory>src/main/java</directory>
+      <includes>
+        <include>**/*.**</include>
+      </includes>
+    </fileSet>
+    <fileSet filtered="true" encoding="UTF-8" packaged="true">
+      <directory>src/test/java</directory>
+      <includes>
+        <include>**/*.**</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+  <requiredProperties>
+    <requiredProperty key="java_source_version">
+      <!--<defaultValue>1.8</defaultValue>-->
+    </requiredProperty>
+    <requiredProperty key="java_target_version">
+      <!--<defaultValue>1.8</defaultValue>-->
+    </requiredProperty>
+  </requiredProperties>
+</archetype-descriptor>
